@@ -5,7 +5,7 @@ from os import name
 import requests
 import json
 import os
-TOKEN = (os.getenv("UPTIMEROBOT_API_KEY") or "u884699-4af49401101c1d43eed9b9f5")
+TOKEN = (os.getenv("UPTIMEROBOT_API_KEY") or "")
 DEBUG = True
 API_ENDPOINT = "https://api.uptimerobot.com/v2/"
 VALID_ACTIONS = ["add_monitor", "remove_monitor", "get_monitor"]
